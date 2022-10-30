@@ -6,16 +6,25 @@ Una volat acollegati i vari dispositivi, associato loro i rispettivi indirizzi I
 Configurazione Switch(Server):
 
 `en` 
+
 `conf t` 
+
 `vtp mode server`
+
 `vtp domain (nome domain)`
+
 `vtp password (nome password)`
+
 
 
 Configurazione Switch(Client):
 
 `en`
+
 `conf t`
+
 `vtp mode client`
+
 `vtp domain (nome domain)`
+
 `vtp password (nome password)`
